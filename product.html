@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products</title>
+        <!--link rel="stylesheet" type="text/css" href="style.css" /-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Website CSS style -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Website Font style -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+        <!-- JS Bootstrap -->
+        <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/esm/popper.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/ajax_get_lib.js"></script>
+        <script type="text/javascript" src="js/shopping_cart.js"></script>
+        <script type="text/javascript" src="js/ajax_populate_page.js"></script>
+    </head>
+    <body> 
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Chocolates</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-nav">
+                    <a class="nav-item nav-link " href="index.html">Home</a>
+                    <a class="nav-item nav-link active" href="#">Products <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="order_online.html">Order Online</a>
+                    <a class="nav-item nav-link" href="about.html">About Us</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="list-group col-sm-2 sidebar">
+                <a href="#" class="list-group-item list-group-item-action" id="milk">Milk chocolate</a>
+                <a href="#" class="list-group-item list-group-item-action" id="dark">Dark chocolate</a>
+                <a href="#" class="list-group-item list-group-item-action" id="nuts">Nuts and chews</a>
+                <a href="#" class="list-group-item list-group-item-action" id="brittle" >Brittles and toffies</a>
+                <a href="#" class="list-group-item list-group-item-action" id="truffles" >Truffles</a>
+                <a href="#" class="list-group-item list-group-item-action" id="gifts">Gifts</a>
+            
+                <a href="#" class="list-group-item list-group-item-action" id="holiday" >Holiday assortments</a>
+            </div>
+            <div class="col-sm-10" id="content">
+                    <div class="container">
+                            <div class="jumbotron"><h4 class=error> Select any category to choose products</h4></div>
+                        </div>
+
+            </div>
+        </div>
+    </body>
+</html>
